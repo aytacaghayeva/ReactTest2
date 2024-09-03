@@ -1,0 +1,59 @@
+
+.wine1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+}
+.cardIvanovka {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid lightgray;
+    border-radius: 10px;
+    width: 400px;
+    padding: 10px;
+     img {
+        height: 400px;
+        width: auto;
+    }
+    
+}
+
+.wine1-name {
+    font-weight: bold;
+    font-size: 20px;
+    color: mediumslateblue;
+}
+
+.wine1-taste {
+    font-weight: bold;
+    font-size: 20px;
+    color: mediumturquoise;
+}
+
+.wine1-price {
+    font-weight: bold;
+    font-size: 25px;
+    &:hover{
+        color: red;
+        cursor: pointer;
+    }
+}
+
+.cardIvanovka button{
+    padding-block: 5px;
+    padding-inline: 10px;
+    background-color: aqua;
+    color: blue;
+    font-weight: bold;
+    border: 2px solid blue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.handleBtn:hover{
+    transition: 0.5s;
+    background-color: blue;
+    color: aqua;
+    border: 2px solid aqua;
+}

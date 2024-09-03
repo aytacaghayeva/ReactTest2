@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contact-text{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}

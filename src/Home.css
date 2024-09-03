@@ -1,0 +1,26 @@
+
+.home-text{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    color: pink;
+}
+.home-wine{
+    min-height: calc(100vh - 204px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.wine-input{
+    padding: 5px;
+    width: 300px;
+    background-color: lightblue;
+    border: 2px solid rgb(6, 83, 130);
+    font-size: 20px;
+   
+}
+.inputWine{
+     display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
